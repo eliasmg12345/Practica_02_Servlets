@@ -67,7 +67,7 @@ public class Preg5 extends HttpServlet {
             int x=Integer.parseInt(inicio);
            
             
-            
+            //Creando matriz Caracol
             int[][] M = new int[n + 1][n + 1];
             for (int a = 1; a <= n / 2; a++) {
                 for (int i = a; i <= n - a; i++) {
